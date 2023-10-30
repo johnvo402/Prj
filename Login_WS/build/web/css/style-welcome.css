@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    position: relative;
+}
+.welcome-main {
+    width: 100%;
+}
+
+.update {
+    display: none;
+    padding: 50px;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+    margin: auto auto;
+}
+
+.create-content,
+.update-content {
+    margin: auto 0;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    z-index: 9;
+}

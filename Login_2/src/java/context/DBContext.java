@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 
 public class DBContext {
 
-    private static final String serverName = "DESKTOP-VGDP77D";
+    private static final String serverName = "THANHTHƯ";
     private static final String dbName = "LOGIN_TEST_DB";
     private static final String portNumber = "1433";
     private static final String userID = "sa";
